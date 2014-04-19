@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\SpawnerScript.cs">
+    <Files>
+      <File FileName="Assets\Script\BtnScript.cs" Line="11" Column="24" />
+      <File FileName="Assets\Script\InputControl.cs" Line="11" Column="39" />
+      <File FileName="Assets\Script\BtnPositionScript.cs" Line="12" Column="17" />
+      <File FileName="Assets\Script\SpawnerScript.cs" Line="13" Column="79" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
