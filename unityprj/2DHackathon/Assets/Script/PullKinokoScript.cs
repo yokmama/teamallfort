@@ -45,7 +45,14 @@ public class PullKinokoScript : KinokoBase {
 			Vector2 delta = new Vector2(kohaku.transform.position.x, kohaku.transform.position.y)
 				- new Vector2(this.transform.position.x,this.transform.position.y);
 			if(delta.magnitude > 0.1f){
-				this.rigidbody2D.velocity = delta.normalized * speed;
+				switch(team){
+				case Team.Kinoko:
+					this.rigidbody2D.velocity = Vector2.right * speed;
+					break;
+				case Team.Takenoko:
+					this.rigidbody2D.velocity = -Vector2.right * speed;
+					break;
+				}
 			}else{
 				this.rigidbody2D.velocity = Vector2.zero;
 			}

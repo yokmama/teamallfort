@@ -1,0 +1,184 @@
+fileFormatVersion: 2
+guid: bd6c8a256c3c3cd479832b8eef68b7bc
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: takenoko_brown_walk2
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 590
+        width: 61
+        height: 93
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: takenoko_brown_stand0
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 590
+        width: 62
+        height: 93
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: takenoko_brown_walk1
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 590
+        width: 67
+        height: 93
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: takenoko_brown_wait0
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 472
+        width: 62
+        height: 91
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: takenoko_brown_atk3
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 354
+        width: 65
+        height: 94
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: takenoko_brown_atk2
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 354
+        width: 67
+        height: 94
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: takenoko_brown_atk1
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 354
+        width: 63
+        height: 94
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: takenoko_brown_dmg2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 236
+        width: 61
+        height: 94
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: takenoko_brown_dmg1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 236
+        width: 64
+        height: 94
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: takenoko_brown_mgc3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 118
+        width: 67
+        height: 94
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: takenoko_brown_l_10
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 118
+        width: 64
+        height: 94
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: takenoko_brown_mgc1
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 118
+        width: 63
+        height: 94
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: takenoko_brown_push3
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1
+        width: 62
+        height: 90
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: takenoko_brown_push2
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 1
+        width: 62
+        height: 93
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: takenoko_brown_push1
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 1
+        width: 64
+        height: 93
+      alignment: 7
+      pivot: {x: .5, y: 0}
+  spritePackingTag: 
+  userData: 

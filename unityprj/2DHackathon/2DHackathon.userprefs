@@ -1,16 +1,21 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\KohakuScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\InputControl.cs">
     <Files>
-      <File FileName="Assets\Script\AttackKinokoScript.cs" Line="29" Column="3" />
-      <File FileName="Assets\Script\GameControl.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\InputControl.cs" Line="29" Column="1" />
+      <File FileName="Assets\Script\InputControl.cs" Line="29" Column="1" />
+      <File FileName="Assets\Script\PullKinokoScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\AttackKinokoScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\BtnScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\KinokoBase.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\PullKinokoScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\KohakuScript.cs" Line="13" Column="50" />
+      <File FileName="Assets\Script\KohakuScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Script\AllKinokoControll.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\main.cs" Line="29" Column="47" />
-      <File FileName="Assets\Scripts\UnityLive.cs" Line="6" Column="23" />
+      <File FileName="Assets\Scripts\main.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\UnityLive.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\SpawnerScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Images\Lifebar.cs" Line="1" Column="1" />
+      <File FileName="Assets\Images\TopScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Images\ClearScript.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
