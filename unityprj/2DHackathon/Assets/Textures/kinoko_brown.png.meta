@@ -1,0 +1,193 @@
+fileFormatVersion: 2
+guid: fe210cd302c12784aa0bd6c3d356f284
+TextureImporter:
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+  spriteSheet:
+    sprites:
+    - name: kinoko_brown_walk1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 588
+        width: 64
+        height: 93
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: kinoko_brown_stand0
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 587
+        width: 65
+        height: 94
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: kinoko_walk_2
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 587
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: kinoko_wait_0
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 470
+        width: 66
+        height: 92
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: kinoko_brown_atk1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 353
+        width: 65
+        height: 93
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: kinoko_brown_atk2
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 353
+        width: 65
+        height: 93
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: kinoko_brown_atk3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 353
+        width: 64
+        height: 93
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: kinoko_brown_dmg1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 235
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: kinoko_brown_dmg2
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 235
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: kinoko_brown_mgc1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 118
+        width: 66
+        height: 93
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: kinoko_brown_mgc2
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 118
+        width: 66
+        height: 93
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: kinoko_brown_mgc3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 118
+        width: 65
+        height: 94
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: kinoko_brown_mgc4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 118
+        width: 63
+        height: 93
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: kinoko_brown_push1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1
+        width: 65
+        height: 93
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: kinoko_brown_push2
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1
+        width: 66
+        height: 94
+      alignment: 7
+      pivot: {x: .5, y: 0}
+    - name: kinoko_brown_push3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1
+        width: 65
+        height: 91
+      alignment: 7
+      pivot: {x: .5, y: 0}
+  spritePackingTag: 
+  userData: 

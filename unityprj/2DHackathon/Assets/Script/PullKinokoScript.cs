@@ -11,8 +11,10 @@ public class PullKinokoScript : KinokoBase {
 	public void SetState(State st){
 		switch(st){
 		case State.Approach:
+			setAnim(Anim.Walk);
 			break;
 		case State.Pull:
+			setAnim(Anim.Pull);
 			this.rigidbody2D.velocity = Vector2.zero;
 			break;
 		}
