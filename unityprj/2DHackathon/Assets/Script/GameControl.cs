@@ -2,19 +2,19 @@
 using System.Collections;
 
 public class GameControl : MonoBehaviour {
-	private int ptKinoko;
+	private int ptKinoko =1000;
 	public int PtKinoko{
 		set{
-			ptKinoko = value;
+			ptKinoko = Mathf.Clamp(value,0,1000);
 		}
 		get{
 			return ptKinoko;
 		}
 	}
-	private int ptTakenoko;
+	private int ptTakenoko = 1000;
 	public int PtTakenoko{
 		set{
-			ptTakenoko = value;
+			ptTakenoko = Mathf.Clamp(value,0,1000);
 		}
 		get{
 			return ptTakenoko;
