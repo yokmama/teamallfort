@@ -10,6 +10,6 @@ public class SpawnerScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		this.transform.position = defPos + Vector3.up * Mathf.Sin(Time.time * 2) * 4;
+		this.transform.position = defPos + Vector3.up * Mathf.Sin(Time.time) * 4;
 	}
 }

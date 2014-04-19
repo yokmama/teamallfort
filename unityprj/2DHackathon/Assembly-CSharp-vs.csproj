@@ -46,10 +46,17 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\NavAgeScript.cs" />
+     <Compile Include="Assets\Script\AllKinokoControll.cs" />
+     <Compile Include="Assets\Script\AttackKinokoScript.cs" />
      <Compile Include="Assets\Script\BtnPositionScript.cs" />
      <Compile Include="Assets\Script\BtnScript.cs" />
+     <Compile Include="Assets\Script\ClearAreaScript.cs" />
+     <Compile Include="Assets\Script\GameControl.cs" />
      <Compile Include="Assets\Script\InputControl.cs" />
-     <Compile Include="Assets\Script\KinokoScript.cs" />
+     <Compile Include="Assets\Script\KinokoBase.cs" />
+     <Compile Include="Assets\Script\KohakuScript.cs" />
+     <Compile Include="Assets\Script\PullKinokoScript.cs" />
      <Compile Include="Assets\Script\SpawnerScript.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
