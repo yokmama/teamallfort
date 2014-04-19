@@ -4,20 +4,17 @@ using System.Collections;
 public class KinokoBase : MonoBehaviour {
 	public float speed;
 	public float power;
-	
+	public float life;
+
+	private int index;
+
 	public enum Team{
 		Kinoko,
 		Takenoko
 	}
 	public Team team = Team.Kinoko;
-	protected GameObject kohaku;
-	void Start () {
-		kohaku = GameObject.FindGameObjectWithTag("Kohaku");
-		animator = this.GetComponent<Animator>();
-		setAnim(Anim.Walk);
-	}
 
-	private Animator animator;
+	protected Animator animator;
 	public enum Anim{
 		Wait,
 		Walk,
@@ -44,5 +41,10 @@ public class KinokoBase : MonoBehaviour {
 			break;
 		}
 	}
+	public void GetDamage(int dmg){
+		setAnim(Anim.Dmg);
+		Invoke("RecoverDmg",1.5f);
+	}
+	public virtual void RecoverDmg(){}
 
 }

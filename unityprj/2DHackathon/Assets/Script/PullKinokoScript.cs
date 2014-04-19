@@ -20,6 +20,23 @@ public class PullKinokoScript : KinokoBase {
 		}
 		state = st;
 	}
+	public override void RecoverDmg(){
+		switch(state){
+		case State.Approach:
+			setAnim(Anim.Walk);
+			break;
+		case State.Pull:
+			setAnim(Anim.Pull);
+			break;
+		}
+	}
+
+	private GameObject kohaku;
+	void Start () {
+		kohaku = GameObject.FindGameObjectWithTag("Kohaku");
+		animator = this.GetComponent<Animator>();
+		setAnim(Anim.Walk);
+	}
 
 	// Update is called once per frame
 	void LateUpdate () {
@@ -44,5 +61,5 @@ public class PullKinokoScript : KinokoBase {
 			}
 			break;
 		}
-	}
+	}	
 }
